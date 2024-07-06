@@ -1,0 +1,23 @@
+div {
+  margin: 20px;
+  padding: 20px;
+  background-color: #eee;
+  width: 400px;
+}
+.element-1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: arial;
+  line-height: 1.8;
+  border-left: 10px rgb(255, 0, 102) solid;
+}
+.element-2 {
+  visibility: hidden;
+}
+.element-3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: arial;
+  line-height: 1.8;
+  border-left: 10px rgb(19, 151, 135) solid;
+}
