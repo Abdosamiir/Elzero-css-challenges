@@ -2,17 +2,22 @@ div {
   width: 400px;
   height: 400px;
   padding: 20px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .assign-3-shape-1 {
   background: url(./css-assignment-5-8.png) no-repeat;
+  background-color: #eee;
 }
 .assign-3-shape-2 {
   background: url(./css-assignment-5-8.png) repeat-y right;
+  background-color: #eee;
 }
 .assign-3-shape-3 {
   background: url(./css-assignment-5-8.png) repeat-x bottom;
   margin-bottom: 200px;
+  background-color: #eee;
 }
 .assign-3-shape-4 {
   background: url(./css-assignment-5-8.png) repeat;

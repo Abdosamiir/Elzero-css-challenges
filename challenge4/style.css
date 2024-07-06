@@ -5,20 +5,26 @@ div {
   margin: auto;
   margin-bottom: 50px;
 }
-.assign-2-shape-1 {
+
+.assign-4-shape-1 {
   background: url(./css-assignment-5-8.png) no-repeat;
+  background-size: 80%;
   background-color: #eee;
 }
-.assign-2-shape-2 {
+.assign-4-shape-2 {
   background: url(./css-assignment-5-8.png) repeat-y;
-  margin-bottom: 200px;
+  background-position: right;
+  background-size: 80%;
   background-color: #eee;
 }
-.assign-2-shape-3 {
+.assign-4-shape-3 {
   background: url(./css-assignment-5-8.png) repeat-x;
+  background-position: bottom;
+  background-size: 80%;
   background-color: #eee;
 }
-.assign-2-shape-4 {
-  background: url(./css-assignment-5-8.png) repeat;
+.assign-4-shape-4 {
+  background: url(./css-assignment-5-8.png) no-repeat;
+  background-position: bottom right;
   background-color: #eee;
 }
