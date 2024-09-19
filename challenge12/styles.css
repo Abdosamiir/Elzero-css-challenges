@@ -1,0 +1,91 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  width: 300px;
+  height: 60px;
+  margin: 20px auto;
+}
+.one,
+.three {
+  background-color: #eee;
+  text-align: center;
+  line-height: 60px;
+}
+:empty {
+  background-color: rgb(255, 60, 0);
+}
+
+.four {
+  background-color: #eeee;
+  line-height: 60px;
+  position: relative;
+}
+
+.four::first-letter {
+  background-color: rgb(255, 60, 0);
+  color: white;
+  padding: 5px;
+  position: absolute;
+  margin-left: -10px;
+}
+
+.five p {
+  background-color: #eee;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  border-left: 5px solid #e91e63;
+  position: relative;
+}
+
+.five p::before {
+  content: attr(data-person);
+  position: absolute;
+  background-color: #eee;
+  width: 50px;
+  padding: 10px;
+  float: left;
+  left: -100px;
+  top: 13px;
+}
+
+.five p::after {
+  content: "";
+  position: absolute;
+  border: 15px solid;
+  border-color: transparent #e91e63 transparent transparent;
+  float: left;
+  left: -34px;
+  top: 15px;
+}
+.hr5 {
+  margin-top: 180px;
+}
+
+.six p {
+  width: 400px;
+  background-color: #eee;
+  padding: 20px;
+  position: relative;
+  border-right: 5px solid rgb(255, 60, 0);
+  counter-increment: number;
+}
+
+.six p::before {
+  content: counter(number);
+  position: absolute;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(255, 60, 0);
+  color: white;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  float: left;
+  left: -60px;
+  top: 0px;
+}
