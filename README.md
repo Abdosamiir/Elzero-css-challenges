@@ -1,1 +1,1 @@
-Elzero css challenge : https://elzero.org/category/assignments/css-assignments/
+Elzero css challenges : https://elzero.org/category/assignments/css-assignments/
